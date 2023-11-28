@@ -1,0 +1,160 @@
+:root {
+    --primary: #AE0628;
+    --primary2: #1C1C1C;
+    --secondary: #D4012C;
+    --text: #1c1c1c;
+    --text-color: #ffffff;
+    --text-passive: #515151;
+    --background: #ffffff;
+    --svg-color: #AE0628;
+    --background-overlay: rgba(28, 28, 28, 0.45);
+    --photo-overlay: rgba(0, 0, 0, 0.3);
+    --stroke: #e4e4e4;
+    --discount-price: #bebebe;
+    --multiple-price: #AE0628;
+    --sale: #d20000;
+    --navbar-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.15);
+    --footer-shadow: 0px -4px 10px 0px rgba(0, 0, 0, 0.15);
+    --general-white: #fff;
+    --blur: rgba(113, 113, 113, 0.24);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif !important;
+    background-color: var(--background);
+    color: var(--text-color);
+}
+
+body.dark-mode {
+    --primary: #FFF0F3;
+    --primary2: #FFF0F3;
+    --secondary: #D4012C;
+    --text: #ffffff;
+    --text-color: #4F0010;
+    --svg-color: #FFF0F3;
+    --text-passive: #bebebe;
+    --background: #4F0010;
+    --multiple-price: #FFF0F3;
+}
+
+body > div {
+    max-width: 767px;
+    margin: 0px auto;
+}
+
+* {
+    font-style: normal;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.fixed-body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.sm-regular,
+.sm-medium,
+.sm-semibold,
+.sm-bold {
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.xs-regular,
+.xs-medium,
+.xs-semibold,
+.xs-bold {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.text-xl-regular,
+.text-xl-medium,
+.text-xl-semibold,
+.text-xl-bold {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.text-lg-regular,
+.text-lg-medium,
+.text-lg-semibold,
+.text-lg-bold {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.text-md-regular,
+.text-md-medium,
+.text-md-semibold,
+.text-md-bold {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text-sm-regular,
+.text-sm-medium,
+.text-sm-semibold,
+.text-sm-bold {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.text-xs-regular,
+.text-xs-medium,
+.text-xs-semibold,
+.text-xs-bold {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.sm-regular,
+.xs-regular,
+.text-xl-regular,
+.text-xs-regular,
+.text-md-regular,
+.text-lg-regular,
+.text-sm-regular {
+    font-weight: 400;
+}
+
+.sm-medium,
+.xs-medium,
+.text-xl-medium,
+.text-xs-medium,
+.text-md-medium,
+.text-lg-medium,
+.text-sm-medium {
+    font-weight: 500;
+}
+
+.sm-semibold,
+.xs-semibold,
+.text-xl-semibold,
+.text-xs-semibold,
+.text-md-semibold,
+.text-lg-semibold,
+.text-sm-semibold {
+    font-weight: 600;
+}
+
+.sm-bold,
+.xs-bold,
+.text-xl-bold,
+.text-xs-bold,
+.text-md-bold,
+.text-lg-bold,
+.text-sm-bold {
+    font-weight: 700;
+}
